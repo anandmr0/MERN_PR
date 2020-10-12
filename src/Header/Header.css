@@ -92,15 +92,8 @@ img {
 .header-btn .btn-myaccount {
   float: right;
 }
-.aply-filter {
-    border-radius: 20px 20px 20px 20px;
-     height: 35px; 
-    width: 250px; 
-    background-color: #fff;
-    border-color: seagreen;
-    color: seagreen;
-}
-@media (max-width: 1200px) {
+
+@media (max-width: 992px) {
   .header-btn .logout {
     background-color: seagreen;
     border-color: seagreen;
@@ -109,13 +102,13 @@ img {
     margin-left: 112px;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
   .header-btn .btn-myaccount {
     float: left;
     margin-top: -56px
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
   .header-nav {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
@@ -124,31 +117,18 @@ img {
     background-color: #fff;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
   .header-nav .mr-auto {
     float: left;
     padding-left: 15px;
     position: absolute;
   }
 }
-@media (max-width: 1200px) {
+@media (max-width: 992px) {
   .header {
     height: 56px;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: relative;
   }
-}
-@media (max-width: 1200px)
-{
-.aply-filter {
-    border-radius: 20px 20px 20px 20px;
-    height: 38px;
-    width: 235px;
-    background-color: #fff;
-    border-color: seagreen;
-    color: seagreen;
-    margin-top: 54px;
-    margin-left: 6px;
-}
 }
