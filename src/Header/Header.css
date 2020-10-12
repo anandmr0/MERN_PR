@@ -1,65 +1,154 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-.header{
+  }
+  .header {
     height: 56px;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: fixed
-}
-img{
-    height: 25px;
-    width: 25px;
-}
-.header-logo{
-    padding-left: 10px;
-}
-.header-logo p{
-
-    font-size: 11px;
-    font-weight: bold;
-    
-    padding-bottom: 6px;
-    margin-left: 33px;
-    margin-top: -21px;
-}
-.header-logo h2{
-
-    font-size: 6px;
-   
-    /* margin-bottom: -13px; */
-    /* padding-bottom: 11px; */
-    margin-left: 33px;
-    margin-top: -21px
-}
-.header-logo strong{
-    padding-bottom: 10px;
-}
-.navbar-nav > li{
-    padding-left:20px;
-    padding-right:20px;
+  
+    position: relative;
   }
-.header-btn{
-    padding-left: 135px;
-   
+
+img {
+  height: 25px;
+  width: 25px;
 }
-.header-btn .logout{
-   margin-left: 10px;
-   background-color: seagreen;
-   border-color: seagreen;
+.header-logo {
+  padding-left: 10px;
 }
-.navbar{
-    height: 56px;
-    width: 100%; 
+.header-logo p {
+  font-size: 11px;
+  font-weight: bold;
+
+  padding-bottom: 6px;
+  margin-left: 33px;
+  margin-top: -21px;
+}
+.header-logo h2 {
+  font-size: 6px;
+
+  /* margin-bottom: -13px; */
+  /* padding-bottom: 11px; */
+  margin-left: 33px;
+  margin-top: -21px;
+}
+.header-logo strong {
+  padding-bottom: 10px;
+}
+.navbar-nav > li {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header-btn {
+  padding-left: 135px;
+}
+.header-btn .logout {
+  margin-left: 10px;
+  background-color: seagreen;
+  border-color: seagreen;
+}
+.navbar {
+  height: 56px;
+  width: 100%;
 }
 .btnGroupDrop1 {
-    color: seagreen;
-    background-color:seagreen;
-    border-color:seagreen; /*set the color you want here*/
+  color: seagreen;
+  background-color: seagreen;
+  border-color: seagreen; /*set the color you want here*/
 }
-.btnGroupDrop1:hover{
+.btnGroupDrop1:hover {
+  color: seagreen;
+  background-color: seagreen;
+  border-color: seagreen; /*set the color you want here*/
+}
+
+
+.header-nav {
+  background-color: #fff;
+  z-index: 200;
+}
+.header-nav .nav-menu-search {
+  text-decoration: none;
+  margin-top: 8px;
+  color: grey;
+}
+.header-nav .nav-menu-search:hover {
+  text-decoration: none;
+  color: grey;
+}
+.header-nav .mr-auto {
+  float: right;
+}
+.header-btn {
+  background-color: #fff;
+  z-index: 200;
+}
+.header-btn .logout {
+  background-color: seagreen;
+  border-color: seagreen;
+  float: right;
+}
+.header-btn .btn-myaccount {
+  float: right;
+}
+.aply-filter {
+    border-radius: 20px 20px 20px 20px;
+     height: 35px; 
+    width: 250px; 
+    background-color: #fff;
+    border-color: seagreen;
     color: seagreen;
-    background-color:seagreen;
-    border-color:seagreen; /*set the color you want here*/
+}
+@media (max-width: 1200px) {
+  .header-btn .logout {
+    background-color: seagreen;
+    border-color: seagreen;
+    float: left;
+    margin-top: -56px;
+    margin-left: 112px;
+  }
+}
+@media (max-width: 1200px) {
+  .header-btn .btn-myaccount {
+    float: left;
+    margin-top: -56px
+  }
+}
+@media (max-width: 1200px) {
+  .header-nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    height: 219px;
+    width: 100%;
+    background-color: #fff;
+  }
+}
+@media (max-width: 1200px) {
+  .header-nav .mr-auto {
+    float: left;
+    padding-left: 15px;
+    position: absolute;
+  }
+}
+@media (max-width: 1200px) {
+  .header {
+    height: 56px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+  }
+}
+@media (max-width: 1200px)
+{
+.aply-filter {
+    border-radius: 20px 20px 20px 20px;
+    height: 38px;
+    width: 235px;
+    background-color: #fff;
+    border-color: seagreen;
+    color: seagreen;
+    margin-top: 54px;
+    margin-left: 6px;
+}
 }
