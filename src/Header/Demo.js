@@ -35,7 +35,7 @@ class Demo extends React.Component {
           <Nav.Link className="nav-menu" href="#home"><strong>About</strong></Nav.Link>
             <Nav.Link  className="nav-menu" href="#Service"><strong>Service</strong></Nav.Link>
             
-            <Link to="/search"><Nav  className="nav-menu" href="/search"><strong>Search</strong></Nav></Link>
+            <Link to="/search"><Nav  className="nav-menu nav-menu-search " href="/search"><strong>Search</strong></Nav></Link>
            <Nav.Link  className="nav-menu" href="#home"><strong>Feedback & support</strong></Nav.Link>
             
           </Nav>
