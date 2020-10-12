@@ -18,7 +18,7 @@ function App() {
     {/* <Header></Header> */}
     <Demo></Demo>
     <Switch>  
-    <Route  path="/search">
+    <Route  exact path="/search">
            <Search></Search>
           </Route>
       </Switch>
