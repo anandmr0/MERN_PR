@@ -28,7 +28,7 @@ class Demo extends React.Component {
             <div className="col-md-6 header-nav">
           <Nav className="mr-auto">
           <Nav.Link className="nav-menu" href="#home"><strong>About</strong></Nav.Link>
-            <Nav.Link  className="nav-menu" href="/search"><strong>Service</strong></Nav.Link>
+            <Nav.Link  className="nav-menu" href="#Service"><strong>Service</strong></Nav.Link>
             
            <Nav.Link  className="nav-menu" href="/search"><strong>Search</strong></Nav.Link>
            <Nav.Link  className="nav-menu" href="#home"><strong>Feedback & support</strong></Nav.Link>
